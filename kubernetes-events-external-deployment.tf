@@ -28,7 +28,7 @@ resource "kubernetes_deployment" "events-external-deployment" {
 
           env {
             name  = "SERVER"
-            value = "http://events-external-deployment:8082"
+            value = "http://events-internal-deployment:8082"
           }
           port {
             container_port = 8080

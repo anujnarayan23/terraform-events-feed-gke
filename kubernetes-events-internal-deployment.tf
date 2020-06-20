@@ -27,7 +27,7 @@ resource "kubernetes_deployment" "events-internal-deployment" {
           name  = "events-internal"
 
           env {
-            name  = "events-internal-service"
+            name  = "GOOGLE_CLOUD_PROJECT"
             value = var.project_id
           }
           port {

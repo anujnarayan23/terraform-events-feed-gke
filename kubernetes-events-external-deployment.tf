@@ -28,7 +28,7 @@ resource "kubernetes_deployment" "events-external-deployment" {
 
           env {
             name  = "SERVER"
-            value = "http://events-internal-service:8082"
+            value = "http://avenger-backend-service:8082"
           }
           port {
             container_port = 8080

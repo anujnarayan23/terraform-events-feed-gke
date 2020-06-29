@@ -1,5 +1,5 @@
 # GCP Settings
-project_id          = "playground-s-11-5e64be" # Enter your project ID here.
+project_id          = "complete-octane-281203" # Enter your project ID here.
 container_registry  = "gcr.io"
 external_image_name = "external-image:v1.0.0"
 internal_image_name = "internal-image:v1.0.0"
